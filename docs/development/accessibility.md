@@ -1,4 +1,126 @@
-# Accessibility Guidelines
+# Accessibility
+
+According the [Strategy 2017](http://www.ilias.de/docu/goto_docu_file_5585_download.html)
+ILIAS aims to to be "Usable for Everyone" including users with special needs. ILIAS
+thus should be perceivable, operable, understandable and of robust use for all users.
+This will enable all users to locate, identify, access, and operate objects and services
+provided. We aim to fulfill the [WCAG 2.1 Recommendation Level A and AA](https://www.w3.org/TR/WCAG21/).
+
+We believe that this high standard can only be made effective via continous efforts 
+that are tightly integrated in our development process. Accessibility of existing
+features can only be improved incrementally. New contributions need to receive timely
+feedback regarding accessibilty (as well as other topics) to allow concepters and
+developers check their contribution early in the developement process. The required
+knowledge and insights need to be disseminated in the community.
+
+## Roles
+
+### Concepters
+
+* need to be educated on typical accessibility issues to write appropriate feature
+  requests
+* need contacts to discuss specific accessibility questions regarding their feature
+  requests
+* need contacts to get certain approval from accessibilty perspective for their
+  feature requests.
+
+### Developers
+
+* need to be educated on typical accessibility issues to write appropriate feature
+  requests and implementations
+* need contacts to discuss specific accessibility questions regarding their feature
+  requests and implementation
+* need a sounding board to discuss accessibilty challenges and possible solutions
+  when implementing feature requests or other contributions
+* should make at least a minimal assessment for accessibilty issues for feature
+  requests they want to implement
+
+### UI-Coordinators
+
+* perform reviews on PRs for the UI Components
+* work with the accessibility expert inside the community to educate developers
+  and concepters
+* improve processes for the UI framework together with accessibility experts
+  and SIG
+
+### Accessibility Experts (Internal)
+
+* support concepters and developer with general and specific questions regarding
+  feature requests and implementations
+* support UI-Coordinators when reviewing PRs, concerning requirements as well as
+  technical implementation
+* perform own reviews with accessibility focus
+* work on processes and strategies to educate the community and to improve processes
+* are part of the SIG Accessiblity and take part in the discussions there
+* are contact to external experts and responsible to review reports of external
+  experts and factor out key findings
+* responsible for this document
+
+### SIG Accessibility Head
+
+* carries the topic with support of the SIG to the community, acts as evangelist
+  for the topic
+* organizes or initiates the organisition for funding for the topic
+* organizes external testing during beta
+* motivates internal testers
+* collects feedback from the SIG and channels it to the community with help of
+  the accessibility expert to the community
+* devises feature requests to improve accessibilty
+
+### SIG Accessibility Member
+
+* supports the head in all given tasks above or carries out such a task for the head
+* provides input and feedback to refine ILIAS further
+* helps with testing and feedback within the framework of the development processes
+* pool for internal accessibilty experts
+
+### Accessibility Expert (External)
+
+* performs at least one review in the beginning of the beta of an ILIAS version
+* performs reviews and consults the interal accessibility expert and the community
+  on major UI developments (such as Page Layout Revision)
+* is contacted in case of major uncertainties disagreement on key aspects
+
+## Web Accessibility Cycle
+
+We believe web accessibility not to be a project with a fixed deadline or end,
+but rather a continuous process to tightly integrated in our other development
+processes. Since main frame for the ILIAS development process is the yearly release
+of the next major version, we believe a yearly main cycle for WAC to be good choice.
+
+* release of ILIAS X
+* revision of base guidelines according and based on new guidelines from the W3Ci
+  or other major developments outside the ILIAS Community (Docs Section in ILIAS,
+  see: https://github.com/ILIAS-eLearning/ILIAS/blob/trunk/docs/development/accessibility.md).
+  Maybe consult external expert.
+* review of existing UI Components based on the above mentioned changes. Maybe
+  adaption of rules (in the rules section of the respective component and
+  testrail cases) of individual components.
+* testing of the changes of existing components by user group
+* for all new UI in Feature Requests as special section „Accessibility“ is added,
+  where possible questions concerning accessibility are discussed. An idea of howi
+  to handle those issues must exist before the JF decision („Ignore“ might be ani
+  option in some cases).
+* if large UI heavy components and features are discussed (such as Page Layout Revions
+  or Page Editor Revisions), (external) experts are consulted early
+* development of new components and features according to guidelines and guidance of
+  UI Experts
+* if large UI heavy components and features are tested before merging, testing by
+  an external expert such as materna before merging
+* Beta Release of ILIAS X+1
+* testing of Beta Release by external expert as early as possible
+* maybe further revision of rules and guidelines as well as testrail tests according
+  to the output of the testing
+* fixing of issues
+* testrail Testing
+* if necessary maybe a second test by an external expert towards the end of the beta
+  phasis
+* maybe further revision of rules and guidelines as well as Testrail tests according to
+  the output of the testing
+* fixing of issues
+* release of ILIAS X+1
+
+
 
 ## PREAMBLE
 According the [Strategy 2017](http://www.ilias.de/docu/goto_docu_file_5585_download.html)
